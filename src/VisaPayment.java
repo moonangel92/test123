@@ -6,6 +6,7 @@ public class VisaPayment {
     }
 
     public static void main(String[] args) {
-
+        VisaPayment pay = new VisaPayment();
+        pay.payViaVisa("Kyrgyzstan");
     }
 }
