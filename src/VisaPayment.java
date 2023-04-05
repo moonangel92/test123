@@ -9,6 +9,10 @@ public class VisaPayment {
         System.out.println("Payment from: " + bank);
     }
 
+    public void payViaVisaStandart(String bank){
+        System.out.println("Payment from: " + bank);
+    }
+
     public static void main(String[] args) {
         VisaPayment pay = new VisaPayment();
         pay.payViaVisa("Kyrgyzstan");
